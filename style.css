@@ -2,6 +2,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.searchbar {
+  border: white 10px grey;
+  border-radius: 25px;
+  width: 300px;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -35,6 +41,12 @@ li {
   list-style-type: none;
   display: flex;
   align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .logo {
@@ -73,7 +85,8 @@ li {
   width: 250px;
   height: 160px;
   flex: 1 0 250px;
-  padding: 15px;
+  padding: 25px 15px 25px 15px;
+
   border-radius: 10px;
   border-left: 5px #fbbf24 solid;
   box-sizing: border-box;
@@ -105,10 +118,17 @@ li {
   flex-direction: column;
   height: 80%;
 }
+
 .icons {
   width: 25px;
   margin-right: 10px;
 }
+
 .trending-accounts {
   flex: 1 0 50px;
+}
+.projectsubtext {
+  font-size: 0.9em;
+  color: grey;
+  margin-top: 5px;
 }
